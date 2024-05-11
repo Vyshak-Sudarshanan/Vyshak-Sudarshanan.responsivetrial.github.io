@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    font-family: "Source Sans 3", sans-serif!important;
+}
+body{
+    background-color:#14171f;
+    
+    
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0, 0, 0)67%, rgba(20,23,31)), url(images/hero-image.jpg);
+    background-size: cover;
+    background-position-x:center;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.hidden-hero{
+    display: none;
+}
+.nothing-img{
+    height: 512px;
+    width: 384px;
+}
+
+.arc-banner{
+    background-image: url(images/promo.jpg);
+    height: 440px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+
+}
+.our-games{
+    background-image: url(images/ourgames-collage.jpg);
+    background-position-x: center ;
+    background-position: 50%;
+    background-size: cover;
+    height: 466.7px;
+}
+
+
+
+footer{
+    background-color: #101010;
+}
+
+
+ .our-games-text{
+    padding-left: 112px;
+ }
+
+
+ .wanna{
+
+padding-left: 112px;
+padding-right: 112px;
+}
+
+ @media (max-width: 978px){
+    .our-games-text{
+        padding-left:0;
+    }
+
+    .wanna{
+        padding: 20px;
+        
+    }
+    .about{
+        margin-bottom: 69px;
+    }
+    .hidden-hero{
+        display:block;
+    }
+    .tobehidden{
+        display: none;
+    }
+
+    .hero{
+        height: 342px;
+    }
+
+ }
+
+ .play{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+ }
+
+ /* SLIDER */
+ .showcase{
+    height: 502px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+    
+}
+.item{
+    min-width: 416px;
+    height: 234px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:30px;
+    
+}
+
+.slide-logo{
+    width:208px;
+}
+
+#one{
+    background-image: url(images/CS2.jpg);
+}
+#two{
+   background-image: url( images/ageofwonders4-bg.jpg);
+}
+#three{
+    background-image: url(images/millennia.jpg);
+}
+#four{
+    background-image: url(images/pa2-main.jpg);
+}
+#five{
+    background-image: url(images/ck3-img.jpg);
+}
+#six{
+    background-image:url(images/stellaris.png);
+}
+#seven{
+    background-image: url(images/bloodlines-2.jpg);
+}
+#eight{
+    background-image:url(images/v3-mainbg-web.jpg);
+}
+#justaftereight{
+    background-image: url(images/ato-main.jpg);
+}
+#nine{
+    background-image: url(images/lamp-frontpage.jpg);
+}
+#ten{
+    background-image: url(images/lby-yt-scrnshot2web1ss.jpg);
+}
+#eleven{
+    background-image: url(images/Heartsofiron4_bg.jpg);
+}
+#twelve{
+    background-image: url(images/euiv-frontpage.jpg);
+}
+#thirteen{
+    background-image: url(images/Surviving_Aftermath_bg.jpg);
+}
+#fourteen{
+    background-image: url(images/cities-img.jpg);
+}
+#fifteen{
+    background-image: url(images/Surviving_Mars_bg2.jpg);
+}   
+
+
+.slider{
+    height:242px ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    overflow-x: auto;
+    
+    
+}
